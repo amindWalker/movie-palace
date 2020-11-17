@@ -4,9 +4,9 @@
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]() [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-</div>
-
 [The Movie Palace - Heroku Demo 🔗](https://the-movie-palace.herokuapp.com/)
+
+</div>
 
 ---
 
