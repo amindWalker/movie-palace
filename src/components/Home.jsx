@@ -14,6 +14,7 @@ import HeroImage from "./elements/HeroImage";
 import SearchBar from "./elements/SearchBar";
 import MovieWall from "./elements/MovieWall";
 import MovieCard from "./elements/MovieCard";
+import LoadMoreBtn from "./elements/LoadMoreBtn";
 import Spinner from "./elements/Spinner";
 
 // Custom Hook
@@ -86,6 +87,11 @@ const Home = () => {
           </>
         ))}
       </MovieWall>
+
+      {loading && <Spinner />}
+      {currentPage < totalPages && !loading && (
+        <LoadMoreBtn text="Load more..." callback={loadMoreMovies} />
+      )}
 
       <StyledFooter>
         <div className="footer" align="right">

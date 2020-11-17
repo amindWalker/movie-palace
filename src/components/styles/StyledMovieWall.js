@@ -15,7 +15,7 @@ export const StyledMovieWall = styled.div`
     background: rgba(0,0,0,0.15);
     box-shadow: 0 5px 5px rgba(255,255,255,0.25);
     border-radius: 9px;
-    opacity: 0.33
+    opacity: 0.33;
 
     @media screen and (max-width: 768px) {
       font-size: 22px;
