@@ -6,6 +6,8 @@
 
 </div>
 
+[The Movie Palace - Heroku Demo 🔗](https://the-movie-palace.herokuapp.com/)
+
 ---
 
 ## Summary
@@ -18,8 +20,6 @@
 - [Author](#author)
 
 <div align="center">
-
-[The Movie Palace - Heroku Demo 🔗](https://the-movie-palace.herokuapp.com/)
 
 ## About <a name = "about"></a>
 
