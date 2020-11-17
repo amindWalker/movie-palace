@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.div`
-  background: rgba(187,0,17,1);
+  background: rgba(187, 0, 17, 1);
 
   .header-content {
     max-width: max-content;
@@ -9,18 +9,23 @@ export const StyledHeader = styled.div`
     margin: 0 auto;
     text-align: center;
 
-    h1 {
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    font-size: 2rem
-    font-weight: 900;
-    line-height: 0;
-    color: rgba(246,244,241,.95);
-    filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.25))
+    strong {
+      font-family: "Montserrat", sans-serif;
+      text-decoration: none;
+      font-size: 2.2rem;
+      color: rgba(246, 244, 241, 0.95);
+      filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
     }
 
     p {
-      font-size: 2.6rem;
+      line-height: 0;
+      margin-top: 1.5rem;
+      color: rgba(246, 244, 241, 0.95);
+      font-family: "Montserrat", sans-serif;
+      font-size: 3rem;
+      font-weight: 900;
+      text-decoration: none;
+      filter: drop-shadow(3px 3px 3px rgba(0, 0, 0, 0.25));
     }
 
     @media screen and (max-width: 500px) {

@@ -7,11 +7,8 @@ const Header = () => (
   <StyledHeader>
     <div className="header-content">
       <a className="link-to" href="/">
-        <h1>
-          THE
-          <br /> MOVIE
-        </h1>
-        <h2>PALACE</h2>
+        <strong>THE MOVIE</strong>
+        <p>PALACE</p>
       </a>
     </div>
   </StyledHeader>
