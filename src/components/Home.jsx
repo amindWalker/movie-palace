@@ -16,6 +16,13 @@ import Spinner from "./elements/Spinner";
 // Custom Hook
 import { useHomeFetch } from "./hooks/custom/useHomeFetch";
 
+// Images
+import NoImage from "../assets/no_image.jpg";
+import TMDBLogo from "../assets/tmdb_logo.svg";
+
+// Styled Components
+import { StyledFooter, StyledTMDBLogo } from "./styles/StyledFooter";
+
 const Home = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [
@@ -54,6 +61,20 @@ const Home = () => {
         title={heroImage.original_title}
         text={heroImage.overview}
       />
+
+      <StyledFooter>
+        <div className="footer" align="right">
+          <a href="https://www.themoviedb.org/">
+            <StyledTMDBLogo src={TMDBLogo} alt="tmdb-logo" />
+          </a>
+          <small>
+            Crafted with <a href="https://reactjs.org/">React.</a>
+            <br />
+            by Breno Rocha - GitHub
+            <a href="https://github.com/git-BR">@git-BR</a>
+          </small>
+        </div>
+      </StyledFooter>
     </>
   );
 };
