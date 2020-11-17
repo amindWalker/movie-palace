@@ -19,7 +19,7 @@
 
 <div align="center">
 
-![demo](https://raw.githubusercontent.com/git-BR/the-movie-palace/master/src/assets/the-movie-palace.gif)
+![demo](https://the-movie-palace.herokuapp.com/)
 
 ## About <a name = "about"></a>
 
