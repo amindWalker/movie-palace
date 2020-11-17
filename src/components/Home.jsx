@@ -12,6 +12,8 @@ import {
 // Components
 import HeroImage from "./elements/HeroImage";
 import SearchBar from "./elements/SearchBar";
+import MovieWall from "./elements/MovieWall";
+import MovieCard from "./elements/MovieCard";
 import Spinner from "./elements/Spinner";
 
 // Custom Hook
@@ -66,6 +68,24 @@ const Home = () => {
       )}
 
       <SearchBar callback={searchMovies} />
+
+      <MovieWall header={searchTerm ? "Search Result" : "Popular Movies"}>
+        {movies.map((movie) => (
+          <>
+            <MovieCard
+              key={movie.id}
+              clickable
+              image={
+                movie.poster_path
+                  ? IMAGE_BASE_URL + POSTER_SIZE + movie.poster_path
+                  : NoImage
+              }
+              movieId={movie.id}
+              movieName={movie.original_title}
+            />
+          </>
+        ))}
+      </MovieWall>
 
       <StyledFooter>
         <div className="footer" align="right">
