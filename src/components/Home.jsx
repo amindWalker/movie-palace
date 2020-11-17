@@ -11,6 +11,7 @@ import {
 
 // Components
 import HeroImage from "./elements/HeroImage";
+import SearchBar from "./elements/SearchBar";
 import Spinner from "./elements/Spinner";
 
 // Custom Hook
@@ -56,11 +57,15 @@ const Home = () => {
   if (!movies[0]) return <Spinner />;
   return (
     <>
-      <HeroImage
-        image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${heroImage.backdrop_path}`}
-        title={heroImage.original_title}
-        text={heroImage.overview}
-      />
+      {!searchTerm && (
+        <HeroImage
+          image={`${IMAGE_BASE_URL}${BACKDROP_SIZE}${heroImage.backdrop_path}`}
+          title={heroImage.original_title}
+          text={heroImage.overview}
+        />
+      )}
+
+      <SearchBar callback={searchMovies} />
 
       <StyledFooter>
         <div className="footer" align="right">
