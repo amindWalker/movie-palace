@@ -19,7 +19,7 @@
 
 <div align="center">
 
-[ 🔗](https://the-movie-palace.herokuapp.com/)
+[The Movie Palace - Heroku Demo 🔗](https://the-movie-palace.herokuapp.com/)
 
 ## About <a name = "about"></a>
 
