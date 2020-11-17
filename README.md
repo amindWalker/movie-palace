@@ -19,7 +19,7 @@
 
 <div align="center">
 
-<a><img src='[image-url](https://the-movie-palace.herokuapp.com/)' width='432' /></a>
+[ 🔗](https://the-movie-palace.herokuapp.com/)
 
 ## About <a name = "about"></a>
 
