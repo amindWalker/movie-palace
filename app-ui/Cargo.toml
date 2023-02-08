@@ -1,0 +1,13 @@
+[package]
+name = "movie-palace"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dioxus = "0.3.1"
+dioxus-router = "0.3.0"
+dioxus-web = "0.3.0"
+dotenvy = "0.15.6"
+gloo-timers = "0.2.6"
