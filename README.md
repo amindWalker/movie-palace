@@ -564,7 +564,7 @@ Here we are saying that **image** will always be a **string**, **movieId** will 
 
 ## ✍️ Author <a name = "author"></a>
 
-Breno Rocha - GitHub [@git-BR](https://github.com/git-BR)
+Breno Rocha - GitHub [@amindWalker](https://github.com/amindWalker)
 
 ---
 
