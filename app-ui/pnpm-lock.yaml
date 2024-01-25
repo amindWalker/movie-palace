@@ -19,7 +19,7 @@ devDependencies:
     version: 0.49.4
   unocss:
     specifier: ^0.49.4
-    version: 0.49.4(vite@4.5.1)
+    version: 0.49.4(vite@4.5.2)
 
 packages:
 
@@ -345,12 +345,12 @@ packages:
     resolution: {integrity: sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==}
     dev: true
 
-  /@unocss/astro@0.49.4(vite@4.5.1):
+  /@unocss/astro@0.49.4(vite@4.5.2):
     resolution: {integrity: sha512-kA+9tsP0r3n+2v0iGcKfXuVLBd69zNfNx52pk5UG/OhDHimEA5FYv4vhnDl41IC/CIlKqy/eOrK85heVYAYunQ==}
     dependencies:
       '@unocss/core': 0.49.4
       '@unocss/reset': 0.49.4
-      '@unocss/vite': 0.49.4(vite@4.5.1)
+      '@unocss/vite': 0.49.4(vite@4.5.2)
     transitivePeerDependencies:
       - rollup
       - vite
@@ -486,7 +486,7 @@ packages:
       '@unocss/core': 0.49.4
     dev: true
 
-  /@unocss/vite@0.49.4(vite@4.5.1):
+  /@unocss/vite@0.49.4(vite@4.5.2):
     resolution: {integrity: sha512-5CUs6q9T3bTIQw0wZVAhAo0FLihUbPfMArjhoOP0N9Xz0NufErBDXm5Bg7IBrXoU3qbSQDtEvqy2743pqqV6yw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0
@@ -501,7 +501,7 @@ packages:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.27.0
-      vite: 4.5.1
+      vite: 4.5.2
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -988,7 +988,7 @@ packages:
       '@fastify/busboy': 2.0.0
     dev: true
 
-  /unocss@0.49.4(vite@4.5.1):
+  /unocss@0.49.4(vite@4.5.2):
     resolution: {integrity: sha512-ruJTIlZEIzslLilu/A9IBlcicGNr+P2JzpGcGy2odaSo6ze7R9g98AdViZO5U3ONn/5E/y502q7bOi1x2ZU7Gw==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -997,7 +997,7 @@ packages:
       '@unocss/webpack':
         optional: true
     dependencies:
-      '@unocss/astro': 0.49.4(vite@4.5.1)
+      '@unocss/astro': 0.49.4(vite@4.5.2)
       '@unocss/cli': 0.49.4
       '@unocss/core': 0.49.4
       '@unocss/preset-attributify': 0.49.4
@@ -1013,15 +1013,15 @@ packages:
       '@unocss/transformer-compile-class': 0.49.4
       '@unocss/transformer-directives': 0.49.4
       '@unocss/transformer-variant-group': 0.49.4
-      '@unocss/vite': 0.49.4(vite@4.5.1)
+      '@unocss/vite': 0.49.4(vite@4.5.2)
     transitivePeerDependencies:
       - rollup
       - supports-color
       - vite
     dev: true
 
-  /vite@4.5.1:
-    resolution: {integrity: sha512-AXXFaAJ8yebyqzoNB9fu2pHoo/nWX+xZlaRwoeYUxEqBO+Zj4msE5G+BhGBll9lYEKv9Hfks52PAF2X7qDYXQA==}
+  /vite@4.5.2:
+    resolution: {integrity: sha512-tBCZBNSBbHQkaGyhGCDUGqeo2ph8Fstyp6FMSvTtsXeZSPpSMGlviAOav2hxVTqFcx8Hj/twtWKsMJXNY0xI8w==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
