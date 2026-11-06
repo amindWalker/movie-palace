@@ -22,7 +22,7 @@ importers:
         version: 0.49.4
       unocss:
         specifier: ^0.49.4
-        version: 0.49.4(rollup@3.29.4)(vite@4.5.3)
+        version: 0.49.4(rollup@3.29.4)(vite@4.5.14)
 
 packages:
 
@@ -586,8 +586,8 @@ packages:
       '@unocss/webpack':
         optional: true
 
-  vite@4.5.3:
-    resolution: {integrity: sha512-kQL23kMeX92v3ph7IauVkXkikdDRsYMGTVl5KY2E9OY4ONLvkHf04MDTbnfo6NKxZiDLWzVpP5oTa8hQD8U3dg==}
+  vite@4.5.14:
+    resolution: {integrity: sha512-+v57oAaoYNnO3hIu5Z/tJRZjq5aHM2zDve9YZ8HngVHbhk66RStobhb1sqPMIPEleV6cNKYK4eGrAbE9Ulbl2g==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
@@ -765,11 +765,11 @@ snapshots:
 
   '@types/estree@1.0.0': {}
 
-  '@unocss/astro@0.49.4(rollup@3.29.4)(vite@4.5.3)':
+  '@unocss/astro@0.49.4(rollup@3.29.4)(vite@4.5.14)':
     dependencies:
       '@unocss/core': 0.49.4
       '@unocss/reset': 0.49.4
-      '@unocss/vite': 0.49.4(rollup@3.29.4)(vite@4.5.3)
+      '@unocss/vite': 0.49.4(rollup@3.29.4)(vite@4.5.14)
     transitivePeerDependencies:
       - rollup
       - vite
@@ -865,7 +865,7 @@ snapshots:
     dependencies:
       '@unocss/core': 0.49.4
 
-  '@unocss/vite@0.49.4(rollup@3.29.4)(vite@4.5.3)':
+  '@unocss/vite@0.49.4(rollup@3.29.4)(vite@4.5.14)':
     dependencies:
       '@ampproject/remapping': 2.2.0
       '@rollup/pluginutils': 5.0.2(rollup@3.29.4)
@@ -877,7 +877,7 @@ snapshots:
       chokidar: 3.5.3
       fast-glob: 3.2.12
       magic-string: 0.27.0
-      vite: 4.5.3
+      vite: 4.5.14
     transitivePeerDependencies:
       - rollup
 
@@ -1152,9 +1152,9 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.0.0
 
-  unocss@0.49.4(rollup@3.29.4)(vite@4.5.3):
+  unocss@0.49.4(rollup@3.29.4)(vite@4.5.14):
     dependencies:
-      '@unocss/astro': 0.49.4(rollup@3.29.4)(vite@4.5.3)
+      '@unocss/astro': 0.49.4(rollup@3.29.4)(vite@4.5.14)
       '@unocss/cli': 0.49.4(rollup@3.29.4)
       '@unocss/core': 0.49.4
       '@unocss/preset-attributify': 0.49.4
@@ -1170,13 +1170,13 @@ snapshots:
       '@unocss/transformer-compile-class': 0.49.4
       '@unocss/transformer-directives': 0.49.4
       '@unocss/transformer-variant-group': 0.49.4
-      '@unocss/vite': 0.49.4(rollup@3.29.4)(vite@4.5.3)
+      '@unocss/vite': 0.49.4(rollup@3.29.4)(vite@4.5.14)
     transitivePeerDependencies:
       - rollup
       - supports-color
       - vite
 
-  vite@4.5.3:
+  vite@4.5.14:
     dependencies:
       esbuild: 0.18.17
       postcss: 8.4.31
